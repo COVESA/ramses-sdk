@@ -18,6 +18,14 @@ projects
 
 ```{toctree}
 :maxdepth: 2
+:caption: Versions
+
+versions
+
+```
+
+```{toctree}
+:maxdepth: 2
 :caption: Interop
 
 interop
