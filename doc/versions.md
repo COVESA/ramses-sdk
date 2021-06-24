@@ -9,4 +9,4 @@ you have to upgrade all the packages to the corresponding version of the toolcha
 |---------|---------|---------------|---------------------------------------------------|
 |0.8.1    |0.6.1    | 27.0.103      | Compatible to Logic 0.6.x and Ramses 27.0.100+    |
 
-You can also find this information in the Help->About section of the Composer.
+You can also find information about your current version of all components in the Help->About section of the Composer.
