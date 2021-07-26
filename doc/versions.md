@@ -7,6 +7,8 @@ you have to upgrade all the packages to the corresponding version of the toolcha
 
 |Composer |Logic    | Ramses        | Notes                                             |
 |---------|---------|---------------|---------------------------------------------------|
+|0.8.3    |0.7.0    | 27.0.105      | Compatible to Logic 0.7.x and Ramses 27.0.100+    |
 |0.8.1    |0.6.1    | 27.0.103      | Compatible to Logic 0.6.x and Ramses 27.0.100+    |
+
 Ramses Composer is designed to remain backwards compatible to all previous versions. It will migrate project files automatically upon loading, so make sure to check in or archive your current project before trying out a new version.
 You can also find information about your current version of all components in the Help->About section of the Composer.
