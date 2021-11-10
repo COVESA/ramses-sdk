@@ -21,13 +21,13 @@ especially if the [community](./community.md#contact) needs such.
 
 Ramses supports a feature called `embedded compositing` to integrate existing OpenGL applications with minimal performance overhead.
 It allows having another application which supports the Wayland protocol to send its rendered surface to a Ramses renderer and
-blend it with the rest of the Ramses scene. For details, please check the [Ramses docs](https://genivi.github.io/ramses/).
+blend it with the rest of the Ramses scene. For details, please check the [Ramses docs](https://covesa.github.io/ramses/).
 
 # Embed a new Ramses application in your existing framework
 
 Using the same mechanism as above, it is possible to integrate a Ramses renderer into an existing application using the Wayland protocol.
 Ramses supports two ways to do that - using the `wl_shell` protocol and using the `ivi_application` protocol.
-For details, please check the [Ramses docs](https://genivi.github.io/ramses/).
+For details, please check the [Ramses docs](https://covesa.github.io/ramses/).
 
 # Which method is for me?
 
