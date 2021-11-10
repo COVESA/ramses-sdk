@@ -7,9 +7,9 @@ are build around these libs.
 
 Here are links for more detailed information:
 
-* [Source code repository](https://github.com/GENIVI/ramses)
-* [API docs](https://genivi.github.io/ramses/)
-* [Wiki pages](https://github.com/GENIVI/ramses/wiki)
+* [Source code repository](https://github.com/COVESA/ramses)
+* [API docs](https://covesa.github.io/ramses/)
+* [Wiki pages](https://github.com/COVESA/ramses/wiki)
 
 You can find more info on how to build the libs, which are the individual components and APIs,
 how to use them, which are the supported compilers and OS-es, how to debug among other things in
@@ -24,10 +24,10 @@ runtime on top of Ramses, based on the Lua syntax.
 
 Here are links for more detailed information:
 
-* [Source code repository](https://github.com/GENIVI/ramses-logic)
+* [Source code repository](https://github.com/COVESA/ramses-logic)
 * [API docs](https://ramses-logic.readthedocs.io/en/latest/)
 * [Lua Syntax](https://ramses-logic.readthedocs.io/en/latest/lua_syntax.html)
-* [Example projects](https://github.com/GENIVI/ramses-composer-docs/blob/master/manual.md) as part of the Ramses Composer user manual
+* [Example projects](https://github.com/COVESA/ramses-composer-docs/blob/master/manual.md) as part of the Ramses Composer user manual
 
 # The Ramses Composer
 
@@ -43,13 +43,13 @@ be tracked in ways familiar to software engineers, without compromising on ease 
 
 Here are links for more detailed information:
 
-* [Source code repository](https://github.com/GENIVI/ramses-composer)
-* [User manual](https://github.com/GENIVI/ramses-composer-docs/blob/master/manual.md)
-* Example projects are part of the [User Manual Repository](https://github.com/GENIVI/ramses-composer-docs/) - clone it to try them out locally!
+* [Source code repository](https://github.com/COVESA/ramses-composer)
+* [User manual](https://github.com/COVESA/ramses-composer-docs/blob/master/manual.md)
+* Example projects are part of the [User Manual Repository](https://github.com/COVESA/ramses-composer-docs/) - clone it to try them out locally!
 
 # Demo
 
-You can find a [demo using Ramses and a detailed map of the Helsinki city model](https://github.com/GENIVI/ramses-citymodel-demo)
+You can find a [demo using Ramses and a detailed map of the Helsinki city model](https://github.com/COVESA/ramses-citymodel-demo)
 which shows the level of detail possible with Ramses on embedded devices. We demonstrated the demo on the Genivi All-hands summit in 2018 using
 an Intel NUC and a 25Mbs Ethernet connection. You can also find a video on [Youtube](https://youtu.be/tyzvEI25BMg?t=198)!
 
@@ -68,5 +68,5 @@ of DCC tools, and don't want to have to write exporters for each of them. This u
 
 We left the source code and the Python bindings for Ramses on Github in case someone else is interested in the code:
 
-* [Ramses Python bindings](https://github.com/GENIVI/ramses-python)
-* [Ramses Blender Plugin](https://github.com/GENIVI/ramses-blender)
+* [Ramses Python bindings](https://github.com/COVESA/ramses-python)
+* [Ramses Blender Plugin](https://github.com/COVESA/ramses-blender)
