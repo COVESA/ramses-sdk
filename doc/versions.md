@@ -7,14 +7,15 @@ you should upgrade all the packages to the corresponding version of the toolchai
 If you have good reasons to not upgrade Ramses and/or Ramses Logic, please consult
 the [library version compatibility matrix](https://ramses-logic.readthedocs.io/en/latest/readme_ref.html#version-matrix).
 
-|Iteration|Composer |Logic    | Ramses        | Notes                                                      |
-|---------|---------|---------|---------------|------------------------------------------------------------|
-| 4       |0.9.2    |0.11.0   | 27.0.113      | See [dedicated upgrade section](upgrade_raco09)   |
-| 3       |0.9.1    |0.10.2   | 27.0.112      | See [dedicated upgrade section](upgrade_raco09)   |
-| 2       |0.8.3    |0.7.0    | 27.0.105      | Compatible to Logic 0.7.x and Ramses 27.0.100+             |
-| 1       |0.8.1    |0.6.1    | 27.0.103      | Compatible to Logic 0.6.x and Ramses 27.0.100+             |
+|Composer |Logic    | Ramses        | Notes                                                      |
+|---------|---------|---------------|------------------------------------------------------------|
+|0.9.2    |0.11.0   | 27.0.113      | See [dedicated upgrade section](upgrade_raco09)            |
+|0.9.1    |0.10.2   | 27.0.112      | See [dedicated upgrade section](upgrade_raco09)            |
+|0.8.3    |0.7.0    | 27.0.105      | Compatible to Logic 0.7.x and Ramses 27.0.100+             |
+|0.8.1    |0.6.1    | 27.0.103      | Compatible to Logic 0.6.x and Ramses 27.0.100+             |
 
-Ramses Composer is designed to remain backwards compatible to all previous versions. It will migrate project files automatically upon loading, so make sure to check in or archive your current project before trying out a new version.
+Ramses Composer is designed to remain backwards compatible to all previous versions. It will migrate project files upon saving with
+a newer version, so make sure to check in or archive your current project before trying out a new version.
 You can also find information about your current version of all components in the Help->About section of the Composer.
 
 (upgrade_raco09)=
