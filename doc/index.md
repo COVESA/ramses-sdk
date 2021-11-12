@@ -18,7 +18,7 @@ projects
 
 ```{toctree}
 :maxdepth: 2
-:caption: Versions
+:caption: Versions/Upgrade
 
 versions
 
