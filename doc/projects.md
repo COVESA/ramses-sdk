@@ -27,7 +27,9 @@ Here are links for more detailed information:
 * [Source code repository](https://github.com/COVESA/ramses-logic)
 * [API docs](https://ramses-logic.readthedocs.io/en/latest/)
 * [Lua Syntax](https://ramses-logic.readthedocs.io/en/latest/lua_syntax.html)
-* [Example projects](https://github.com/COVESA/ramses-composer-docs/blob/master/manual.md) as part of the Ramses Composer user manual
+
+You can find more example projects and real-world use-cases which demonstrate how to use Ramses Logic in
+the Ramses Composer user documentation (see below).
 
 # The Ramses Composer
 
@@ -44,7 +46,7 @@ be tracked in ways familiar to software engineers, without compromising on ease 
 Here are links for more detailed information:
 
 * [Source code repository](https://github.com/COVESA/ramses-composer)
-* [User manual](https://github.com/COVESA/ramses-composer-docs/blob/master/manual.md)
+* [User manual](https://github.com/COVESA/ramses-composer-docs/)
 * Example projects are part of the [User Manual Repository](https://github.com/COVESA/ramses-composer-docs/) - clone it to try them out locally!
 
 # Demo
@@ -68,5 +70,5 @@ of DCC tools, and don't want to have to write exporters for each of them. This u
 
 We left the source code and the Python bindings for Ramses on Github in case someone else is interested in the code:
 
-* [Ramses Python bindings](https://github.com/COVESA/ramses-python)
-* [Ramses Blender Plugin](https://github.com/COVESA/ramses-blender)
+* [Ramses Python bindings](https://github.com/GENIVI/ramses-python)
+* [Ramses Blender Plugin](https://github.com/GENIVI/ramses-blender)
