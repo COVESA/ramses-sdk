@@ -6,4 +6,4 @@ we may be a bit occupied with building cars! ;)
 
 # Contact
 
-You can reach out to us over `ramses at genivi.org`.
+You can reach out to us over `ramses-oss at list.bmw.com`.
