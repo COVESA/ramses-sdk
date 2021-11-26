@@ -9,14 +9,25 @@ the [library version compatibility matrix](https://ramses-logic.readthedocs.io/e
 
 |Composer |Logic    | Ramses        | Notes                                                      |
 |---------|---------|---------------|------------------------------------------------------------|
-|0.9.2    |0.11.0   | 27.0.113      | See [dedicated upgrade section](upgrade_raco09)            |
-|0.9.1    |0.10.2   | 27.0.112      | See [dedicated upgrade section](upgrade_raco09)            |
+|0.9.3    |0.12.0   | 27.0.113      | See [upgrade section 0.9.2->0.9.3](upgrade_raco093)        |
+|0.9.2    |0.11.0   | 27.0.113      | See [upgrade section 0.9.x](upgrade_raco09)                |
+|0.9.1    |0.10.2   | 27.0.112      | See [upgrade section 0.9.x](upgrade_raco09)                |
 |0.8.3    |0.7.0    | 27.0.105      | Compatible to Logic 0.7.x and Ramses 27.0.100+             |
 |0.8.1    |0.6.1    | 27.0.103      | Compatible to Logic 0.6.x and Ramses 27.0.100+             |
 
 Ramses Composer is designed to remain backwards compatible to all previous versions. It will migrate project files upon saving with
 a newer version, so make sure to check in or archive your current project before trying out a new version.
 You can also find information about your current version of all components in the Help->About section of the Composer.
+
+(upgrade_raco093)=
+# Upgrade from RaCo v0.9.2 to RaCo v0.9.3
+
+Ramses Logic 0.12.0 implements a more strict safety policy in terms of Lua environments which may break existing Lua scripts.
+For full details, see the [the CHANGELOG of version 0.12.0](https://ramses-logic.readthedocs.io/en/latest/changelog_ref.html#v0-12-0).
+Here are some hints what may be broken now:
+* If you had global values set outside the interface()/run() methods, they may resolve to `nil` now
+* Move these values to a new function dedicated for such storage - the [init() function](https://ramses-logic.readthedocs.io/en/v0.11.0/lua_syntax.html#global-variables-and-the-init-function)
+* If you had global values set in the interface() function, those are not available anywhere outside this function any more
 
 (upgrade_raco09)=
 # Upgrade to RaCo v0.9.x
