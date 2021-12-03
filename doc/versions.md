@@ -9,6 +9,7 @@ the [library version compatibility matrix](https://ramses-logic.readthedocs.io/e
 
 |Composer |Logic    | Ramses        | Notes                                                      |
 |---------|---------|---------------|------------------------------------------------------------|
+|0.10.0   |0.12.0   | 27.0.113      | See [notes on animations](animations)                      |
 |0.9.3    |0.12.0   | 27.0.113      | See [upgrade section 0.9.2->0.9.3](upgrade_raco093)        |
 |0.9.2    |0.11.0   | 27.0.113      | See [upgrade section 0.9.x](upgrade_raco09)                |
 |0.9.1    |0.10.2   | 27.0.112      | See [upgrade section 0.9.x](upgrade_raco09)                |
@@ -18,6 +19,23 @@ the [library version compatibility matrix](https://ramses-logic.readthedocs.io/e
 Ramses Composer is designed to remain backwards compatible to all previous versions. It will migrate project files upon saving with
 a newer version, so make sure to check in or archive your current project before trying out a new version.
 You can also find information about your current version of all components in the Help->About section of the Composer.
+
+(animations)=
+# Animations in RaCo 0.10.0
+
+RaCo 0.10.0 introduces a major new feature in the Ramses Ecosystem - imported animations.
+This version serves as a preview and first iteration of animations to demonstrate simple
+usage - start/stop, rewind etc. More advanced controls will be added in upcoming versions of
+the Ramses SDK.
+
+```{admonition} Time
+:class: note
+
+In RaCo 0.10.0 it's still not possible to control time. You have to do this over the [timeDelta
+property](https://ramses-logic.readthedocs.io/en/latest/classes/AnimationNode.html#_CPPv4N6rlogic13AnimationNodeE) in Ramses Logic, e.g. by iterating over animation nodes
+using the [Collections API](https://ramses-logic.readthedocs.io/en/latest/classes/LogicEngine.html#_CPPv4NK6rlogic11LogicEngine14animationNodesEv) and setting a timeDelta value in your application runtime.
+This will be improved in upcoming versions of the SDK.
+```
 
 (upgrade_raco093)=
 # Upgrade from RaCo v0.9.2 to RaCo v0.9.3
