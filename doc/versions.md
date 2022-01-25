@@ -9,6 +9,7 @@ the [library version compatibility matrix](https://ramses-logic.readthedocs.io/e
 
 |Composer |Logic    | Ramses        | Notes                                                      |
 |---------|---------|---------------|------------------------------------------------------------|
+|0.11.1   |0.13.0   | 27.0.114      | Check Ramses Composer changelog for details                |
 |0.11.0   |0.13.0   | 27.0.114      | Check Ramses Composer changelog for details                |
 |0.10.0   |0.12.0   | 27.0.113      | See [notes on animations](animations)                      |
 |0.9.3    |0.12.0   | 27.0.113      | See [upgrade section 0.9.2->0.9.3](upgrade_raco093)        |
