@@ -10,7 +10,7 @@ yet powerful way.
 # Who created Ramses and why?
 
 Ramses was initially developed at the BMW Group and open-sourced in 2018 as part of
-a collaboration initiative with the [COVESA](https://www.covesa.global/). Despite being an important
+a collaboration initiative with [GENIVI, now COVESA](https://www.covesa.global/). Despite being an important
 part of the BMW infotainment cluster and digital portfolio, we decided that
 we want to collaborate with other OEMs and suppliers on the fundamentals, and
 specialize on the applications and customization. We feel like open sourcing Ramses was the best

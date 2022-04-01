@@ -9,7 +9,7 @@ the [library version compatibility matrix](https://ramses-logic.readthedocs.io/e
 
 |Composer |Logic    | Ramses        | Notes                                                      |
 |---------|---------|---------------|------------------------------------------------------------|
-|0.13.1   |0.14.2   | 27.0.115      | [Ramses Composer changelog](https://github.com/bmwcarit/ramses-composer/blob/main/CHANGELOG.md) |
+|0.13.x   |0.14.2   | 27.0.115      | [Ramses Composer changelog](https://github.com/bmwcarit/ramses-composer/blob/main/CHANGELOG.md) |
 |0.12.0   |0.14.2   | 27.0.115      | [Ramses Composer changelog](https://github.com/bmwcarit/ramses-composer/blob/main/CHANGELOG.md) |
 |0.11.1   |0.13.0   | 27.0.114      | [Ramses Composer changelog](https://github.com/bmwcarit/ramses-composer/blob/main/CHANGELOG.md) |
 |0.11.0   |0.13.0   | 27.0.114      | [Ramses Composer changelog](https://github.com/bmwcarit/ramses-composer/blob/main/CHANGELOG.md) |
@@ -71,5 +71,5 @@ We provide some hints for possible issues and how to solve them:
 * Content must be assigned to a RenderLayer (and RenderLayer to a render pass) in order to be rendered
     * Expected issues: newly imported content is not immediately shown
     * Suggested solution: read the documentation of the new scene setup
-        * [RenderLayers and ordering](https://github.com/COVESA/ramses-composer-docs/blob/master/ordering/manual.md)
-        * [Offscreen rendering](https://github.com/COVESA/ramses-composer-docs/blob/master/offscreen/manual.md)
+        * [RenderLayers and ordering](https://github.com/bmwcarit/ramses-composer-docs/blob/master/basics/ordering/README.md)
+        * [Offscreen rendering](https://github.com/bmwcarit/ramses-composer-docs/blob/master/basics/offscreen/README.md)

@@ -7,9 +7,9 @@ are build around these libs.
 
 Here are links for more detailed information:
 
-* [Source code repository](https://github.com/COVESA/ramses)
-* [API docs](https://covesa.github.io/ramses/)
-* [Wiki pages](https://github.com/COVESA/ramses/wiki)
+* [Source code repository](https://github.com/bmwcarit/ramses)
+* [API docs](https://bmwcarit.github.io/ramses/)
+* [Wiki pages](https://github.com/bmwcarit/ramses/wiki)
 
 You can find more info on how to build the libs, which are the individual components and APIs,
 how to use them, which are the supported compilers and OS-es, how to debug among other things in
@@ -24,7 +24,7 @@ runtime on top of Ramses, based on the Lua syntax.
 
 Here are links for more detailed information:
 
-* [Source code repository](https://github.com/COVESA/ramses-logic)
+* [Source code repository](https://github.com/bmwcarit/ramses-logic)
 * [API docs](https://ramses-logic.readthedocs.io/en/latest/)
 * [Lua Syntax](https://ramses-logic.readthedocs.io/en/latest/lua_syntax.html)
 
@@ -45,9 +45,9 @@ be tracked in ways familiar to software engineers, without compromising on ease 
 
 Here are links for more detailed information:
 
-* [Source code repository](https://github.com/COVESA/ramses-composer)
-* [User manual](https://github.com/COVESA/ramses-composer-docs/)
-* Example projects are part of the [User Manual Repository](https://github.com/COVESA/ramses-composer-docs/) - clone it to try them out locally!
+* [Source code repository](https://github.com/bmwcarit/ramses-composer)
+* [User manual](https://github.com/bmwcarit/ramses-composer-docs/)
+* Example projects are part of the [User Manual Repository](https://github.com/bmwcarit/ramses-composer-docs/) - clone it to try them out locally!
 
 # Demo
 
