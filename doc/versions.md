@@ -37,7 +37,7 @@ the Ramses SDK.
 
 In RaCo 0.10.0 it's still not possible to control time. You have to do this over the [timeDelta
 property](https://ramses-logic.readthedocs.io/en/latest/classes/AnimationNode.html#_CPPv4N6rlogic13AnimationNodeE) in Ramses Logic, e.g. by iterating over animation nodes
-using the [Collections API](https://ramses-logic.readthedocs.io/en/latest/classes/LogicEngine.html#_CPPv4NK6rlogic11LogicEngine14animationNodesEv) and setting a timeDelta value in your application runtime.
+using the [Collections API](https://ramses-logic.readthedocs.io/en/latest/classes/LogicEngine.html#_CPPv4I0ENK6rlogic11LogicEngine13getCollectionE10CollectionI1TEv) and setting a timeDelta value in your application runtime.
 This will be improved in upcoming versions of the SDK.
 ```
 
