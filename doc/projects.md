@@ -47,12 +47,12 @@ Here are links for more detailed information:
 
 * [Source code repository](https://github.com/bmwcarit/ramses-composer)
 * [User manual](https://github.com/bmwcarit/ramses-composer-docs/)
-* Example projects are part of the [User Manual Repository](https://github.com/bmwcarit/ramses-composer-docs/) - download them through the [releases section of the repository](https://github.com/bmwcarit/ramses-composer-docs/releases)
-* A fully functional [model of a BMW X5 model](https://github.com/bmwcarit/digital-car-3d)
+* Example projects are part of the [User Manual Repository](https://github.com/bmwcarit/ramses-composer-docs) - download them through the [releases section of the repository](https://github.com/bmwcarit/ramses-composer-docs/releases)
+* A fully functional model of a [BMW X5](https://github.com/bmwcarit/digital-car-3d)
 
 # Android app
 
-You can find a [demo app for Android](https://github.com/bmwcarit/ramses-sample-app) which uses demonstrates
+You can find a [demo app for Android](https://github.com/bmwcarit/ramses-sample-app) which demonstrates
 how to use Ramses to render a dynamic 3D asset of a car produced with the [Ramses Composer](#the-ramses-composer).
 
 # Android package
@@ -66,7 +66,7 @@ for Ramses and the Ramses Logic.
 
 You can find a [demo using Ramses and a detailed map of the Helsinki city model](https://github.com/COVESA/ramses-citymodel-demo)
 which shows the level of detail possible with Ramses on embedded devices. We demonstrated the demo on the Genivi All-hands summit in 2018 using
-an Intel NUC and a 25Mbs Ethernet connection. You can also find a video on [our homepage](https://ramses3d.org/)!
+an Intel NUC and a 25Mbs Ethernet connection. You can also find a video on [our homepage](https://ramses3d.org)!
 
 ```{warning} This repository is not using the latest version of Ramses! We keep it as a reference since it's a great demo of what is possible with modern OpenGL and Ramses
 ```
