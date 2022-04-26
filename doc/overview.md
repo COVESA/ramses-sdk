@@ -1,6 +1,6 @@
 # What is Ramses?
 
-Ramses is a low-level rendering engine which is optimized for embedded hardware -
+[Ramses](https://ramses3d.org/) is a low-level rendering engine which is optimized for embedded hardware -
 mobile devices, automotive ECUs, IoT electronics. It is closely aligned
 to Khronos APIs (OpenGL, glTF, EGL) and other industry standards (Wayland,
 Freetype, etc.). Ramses has one distinguishing feature - it allows rendering
@@ -22,7 +22,7 @@ source development and standards are the way to achieve this goal.
 
 Some of the Ramses components and initiatives are developed together with other partners:
 
-* The Ramses Composer, developed by [Paradox Cat](http://paradoxcat.com/)
+* The Ramses Composer, developed by [Paradox Cat](https://paradoxcat.com/)
 * The Ramses Citymodel Demo, developed by MentorGraphics, now part of [Siemens](https://eda.sw.siemens.com)
 * Studies on distributed HMI technologies, together with the [GENIVI/COVESA](https://www.covesa.global/)
 
