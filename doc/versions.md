@@ -9,6 +9,7 @@ the [library version compatibility matrix](https://ramses-logic.readthedocs.io/e
 
 |Composer |Logic    | Ramses        | Notes                                                      |
 |---------|---------|---------------|------------------------------------------------------------|
+|0.14.0   |0.15     | 27.0.116      | See [notes on global symbols](upgrade_raco014) |
 |0.13.x   |0.14.2   | 27.0.115      | [Ramses Composer changelog](https://github.com/bmwcarit/ramses-composer/blob/main/CHANGELOG.md) |
 |0.12.0   |0.14.2   | 27.0.115      | [Ramses Composer changelog](https://github.com/bmwcarit/ramses-composer/blob/main/CHANGELOG.md) |
 |0.11.1   |0.13.0   | 27.0.114      | [Ramses Composer changelog](https://github.com/bmwcarit/ramses-composer/blob/main/CHANGELOG.md) |
@@ -23,6 +24,15 @@ the [library version compatibility matrix](https://ramses-logic.readthedocs.io/e
 Ramses Composer is designed to remain backwards compatible to all previous versions. It will migrate project files upon saving with
 a newer version, so make sure to check in or archive your current project before trying out a new version.
 You can also find information about your current version of all components in the Help->About section of the Composer.
+
+(upgrade_raco014)=
+# Global symbols in RaCo 0.14.0
+
+The logic engine 0.15.0 disabled writing of global variables in order to make scripts safer
+and less prone to undefined behavior. This includes global functions. To keep your global
+symbols (if you have such), move them to the init() function and assign them to the
+special GLOBAL table. Or move them to modules. For more details, read the
+[docs](https://ramses-logic.readthedocs.io/en/latest/lua_syntax.html#global-variables-and-the-init-function).
 
 (animations)=
 # Animations in RaCo 0.10.0
