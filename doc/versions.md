@@ -9,7 +9,8 @@ the [library version compatibility matrix](https://ramses-logic.readthedocs.io/e
 
 |Composer |Logic    | Ramses        | Notes                                                      |
 |---------|---------|---------------|------------------------------------------------------------|
-|0.14.0   |0.15     | 27.0.116      | See [notes on global symbols](upgrade_raco014) |
+|1.0.0    |1.0.2    | 27.0.119      | See [upgrade section 1.0.0](upgrade_raco1)             |
+|0.14.0   |0.15     | 27.0.116      | See [notes on global symbols](upgrade_raco014)             |
 |0.13.x   |0.14.2   | 27.0.115      | [Ramses Composer changelog](https://github.com/bmwcarit/ramses-composer/blob/main/CHANGELOG.md) |
 |0.12.0   |0.14.2   | 27.0.115      | [Ramses Composer changelog](https://github.com/bmwcarit/ramses-composer/blob/main/CHANGELOG.md) |
 |0.11.1   |0.13.0   | 27.0.114      | [Ramses Composer changelog](https://github.com/bmwcarit/ramses-composer/blob/main/CHANGELOG.md) |
@@ -24,6 +25,25 @@ the [library version compatibility matrix](https://ramses-logic.readthedocs.io/e
 Ramses Composer is designed to remain backwards compatible to all previous versions. It will migrate project files upon saving with
 a newer version, so make sure to check in or archive your current project before trying out a new version.
 You can also find information about your current version of all components in the Help->About section of the Composer.
+
+(upgrade_raco1)=
+# Upgrade from RaCo v0.x to RaCo v1.0.0
+
+Ramses Composer 1.0 (and the underlying logic engine 1.0) represent the first major version of the Ramses SDK.
+To ensure extensibility for the future, it provides a new (not backwards compatible!) Lua API which allows to be
+extended without breaking user code. To make the migration easy, we provide the following tools:
+* Documentation of the changes
+    * [Ramses Composer](https://github.com/bmwcarit/ramses-composer/blob/main/CHANGELOG.md#100-ramses-logic-1x-python-api-timer-new-animations)
+    * [Ramses Logic](https://ramses-logic.readthedocs.io/en/latest/changelog_ref.html#v1-0-0)
+* [Migration scripts](https://github.com/bmwcarit/ramses-logic/tree/master/tools/migrate)
+* An enhanced error view in the Ramses Composer which will report errors for each API violation
+
+The new version of the SDK also adds a lot of new functionality, please test and [provide feedback](https://ramses-sdk.readthedocs.io/en/latest/community.html):
+* Python API for RaCoHeadless
+* Reworked animations
+* Timer objects
+* Image conversion utilities
+* ... and many more
 
 (upgrade_raco014)=
 # Global symbols in RaCo 0.14.0
