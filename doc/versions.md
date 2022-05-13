@@ -38,7 +38,7 @@ extended without breaking user code. To make the migration easy, we provide the 
 * [Migration scripts](https://github.com/bmwcarit/ramses-logic/tree/master/tools/migrate)
 * An enhanced error view in the Ramses Composer which will report errors for each API violation
 
-The new version of the SDK also adds a lot of new functionality, please test and [provide feedback](https://ramses-sdk.readthedocs.io/en/latest/community.html):
+The new version of the SDK also adds a lot of new functionality, please try it out and [provide feedback](https://ramses-sdk.readthedocs.io/en/latest/community.html):
 * Python API for RaCoHeadless
 * Reworked animations
 * Timer objects
