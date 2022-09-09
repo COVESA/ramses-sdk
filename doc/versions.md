@@ -9,7 +9,11 @@ the [library version compatibility matrix](https://ramses-logic.readthedocs.io/e
 
 |Composer |Logic    | Ramses        | Notes                                                      |
 |---------|---------|---------------|------------------------------------------------------------|
-|1.0.0    |1.0.2    | 27.0.119      | See [upgrade section 1.0.0](upgrade_raco1)             |
+|1.3.0    |1.1.0    | 27.0.121      | See [upgrade section 1.3](upgrade_raco130)                 |
+|1.2.0    |1.1.0    | 27.0.121      | [Changelog](https://github.com/bmwcarit/ramses-composer/blob/main/CHANGELOG.md#120-trace-player-weak-links-and-running-python-script-in-gui-application) |
+|1.1.2    |1.1.0    | 27.0.121      | See [upgrade section 1.1.2](upgrade_raco112)               |
+|1.1.0-1  |x        | x             | Please skip these versions and use 1.1.2 instead           |
+|1.0.x    |1.0.2    | 27.0.119      | See [upgrade section 1.0.0](upgrade_raco1)                 |
 |0.14.0   |0.15     | 27.0.116      | See [notes on global symbols](upgrade_raco014)             |
 |0.13.x   |0.14.2   | 27.0.115      | [Ramses Composer changelog](https://github.com/bmwcarit/ramses-composer/blob/main/CHANGELOG.md) |
 |0.12.0   |0.14.2   | 27.0.115      | [Ramses Composer changelog](https://github.com/bmwcarit/ramses-composer/blob/main/CHANGELOG.md) |
@@ -25,6 +29,27 @@ the [library version compatibility matrix](https://ramses-logic.readthedocs.io/e
 Ramses Composer is designed to remain backwards compatible to all previous versions. It will migrate project files upon saving with
 a newer version, so make sure to check in or archive your current project before trying out a new version.
 You can also find information about your current version of all components in the Help->About section of the Composer.
+
+(upgrade_raco130)=
+# Upgrade to RaCo v1.3
+
+RaCo 1.3 exposes the possibility to use RamsesLogic feature levels. RamsesLogic supports feature
+levels to allow supporting multiple versions of the content toolchain at the same time.
+See more info about feature levels on the official [docs](https://ramses-logic.readthedocs.io/en/latest/api.html#file-compatibility).
+See the [Changelog](https://github.com/bmwcarit/ramses-composer/blob/main/CHANGELOG.md#130-ramses-logic-feature-level-2-support-relinking-search-function-ui-improvements) for
+more info how to upgrade your existing projects to use newer features of the toolchain.
+The default behavior is optimized for "backwards compatibility", i.e. it will not
+automatically upgrade your content.
+
+(upgrade_raco112)=
+# Upgrade from RaCo v1.0 to RaCo v1.1
+
+Ramses Composer 1.1 (and later!) requires projects to be migrated to use interfaces instead of Lua scripts.
+This improves the performance of existing scenes and also allows a more format way of interacting
+with the asset using well-defined interfaces, but requires the project to be migrated first.
+See the section ``Suggested migration procedure`` in the
+[CHANGELOG](https://github.com/bmwcarit/ramses-composer/blob/main/CHANGELOG.md#110-lua-interfaces-various-ui-improvements)
+for exact steps how to do that.
 
 (upgrade_raco1)=
 # Upgrade from RaCo v0.x to RaCo v1.0.0
