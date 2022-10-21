@@ -9,6 +9,7 @@ the [library version compatibility matrix](https://ramses-logic.readthedocs.io/e
 
 |Composer |Logic    | Ramses        | Notes                                                      |
 |---------|---------|---------------|------------------------------------------------------------|
+|1.4.0    |1.1.0    | 27.0.121      | [Changelog](https://github.com/bmwcarit/ramses-composer/blob/main/CHANGELOG.md#140-python-api-enhancements-various-usability-improvements-and-bugfixes) |
 |1.3.0    |1.1.0    | 27.0.121      | See [upgrade section 1.3](upgrade_raco130)                 |
 |1.2.0    |1.1.0    | 27.0.121      | [Changelog](https://github.com/bmwcarit/ramses-composer/blob/main/CHANGELOG.md#120-trace-player-weak-links-and-running-python-script-in-gui-application) |
 |1.1.2    |1.1.0    | 27.0.121      | See [upgrade section 1.1.2](upgrade_raco112)               |
