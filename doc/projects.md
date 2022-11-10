@@ -46,9 +46,9 @@ be tracked in ways familiar to software engineers, without compromising on ease 
 Here are links for more detailed information:
 
 * [Source code repository](https://github.com/bmwcarit/ramses-composer)
-* [User manual](https://github.com/bmwcarit/ramses-composer-docs/)
-* Example projects are part of the [User Manual Repository](https://github.com/bmwcarit/ramses-composer-docs) - download them through the [releases section of the repository](https://github.com/bmwcarit/ramses-composer-docs/releases)
-* A fully functional model of a [BMW X5](https://github.com/bmwcarit/digital-car-3d)
+* [User manual](https://ramses-composer.readthedocs.io/en/latest/)
+* Tutorial content from the [User Manual](https://ramses-composer.readthedocs.io/en/latest/) - [download them here](https://github.com/bmwcarit/ramses-composer-docs/releases/latest)
+* A fully functional 3D model of a [BMW X5](https://github.com/bmwcarit/digital-car-3d/releases/latest)
 
 # Android app
 
