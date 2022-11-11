@@ -127,5 +127,5 @@ We provide some hints for possible issues and how to solve them:
 * Content must be assigned to a RenderLayer (and RenderLayer to a render pass) in order to be rendered
     * Expected issues: newly imported content is not immediately shown
     * Suggested solution: read the documentation of the new scene setup
-        * [RenderLayers and ordering](https://github.com/bmwcarit/ramses-composer-docs/blob/master/basics/ordering/README.md)
-        * [Offscreen rendering](https://github.com/bmwcarit/ramses-composer-docs/blob/master/basics/offscreen/README.md)
+        * [RenderLayers and ordering](https://ramses-composer.readthedocs.io/en/latest/basics/ordering/README.html)
+        * [Offscreen rendering](https://ramses-composer.readthedocs.io/en/latest/basics/offscreen/README.html)
