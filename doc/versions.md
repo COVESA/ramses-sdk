@@ -9,6 +9,8 @@ the [library version compatibility matrix](https://ramses-logic.readthedocs.io/e
 
 |Composer |Logic    | Ramses        | Notes                                                      |
 |---------|---------|---------------|------------------------------------------------------------|
+|1.7.0    |1.4.2    | 27.0.130      | See  [Changelog](https://github.com/bmwcarit/ramses-composer/blob/main/CHANGELOG.md#170-external-textures)               |
+|1.6.0    |1.4.1    | 27.0.128      | See [upgrade section 1.6.0](upgrade_raco160)               |
 |1.5.x    |1.3.0    | 27.0.126      | [Changelog](https://github.com/bmwcarit/ramses-composer/blob/main/CHANGELOG.md#150-multisampling-dynamic-render-order-control-python-api-improvements) |
 |1.4.0    |1.1.0    | 27.0.121      | [Changelog](https://github.com/bmwcarit/ramses-composer/blob/main/CHANGELOG.md#140-python-api-enhancements-various-usability-improvements-and-bugfixes) |
 |1.3.0    |1.1.0    | 27.0.121      | See [upgrade section 1.3](upgrade_raco130)                 |
@@ -31,6 +33,16 @@ the [library version compatibility matrix](https://ramses-logic.readthedocs.io/e
 Ramses Composer is designed to remain backwards compatible to all previous versions. It will migrate project files upon saving with
 a newer version, so make sure to check in or archive your current project before trying out a new version.
 You can also find information about your current version of all components in the Help->About section of the Composer.
+
+(upgrade_raco160)=
+# Upgrade to RaCo v1.6
+
+RaCo 1.6 is fully backwards compatible if you load previous projects. However, when using
+the newly introduced feature level 5 which adds support for modules in interface objects, you
+may get errors in your existing scenes on places where declared
+modules don't match used modules.
+See the [Changelog](https://github.com/bmwcarit/ramses-composer/blob/main/CHANGELOG.md#160-skinning-morphing-property-copypaste-modules-for-lua-interfaces-misc-bugfixes) for
+more info.
 
 (upgrade_raco130)=
 # Upgrade to RaCo v1.3
